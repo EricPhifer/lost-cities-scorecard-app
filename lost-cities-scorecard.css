@@ -1,0 +1,79 @@
+body {
+  font-family: "Herculanum", sans-serif;
+  width: 100%;
+}
+
+#break {
+  padding: 25px;
+}
+
+.main-title {
+  text-align: center;
+  font: 32px bold;
+}
+
+.main-sub-title {
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.basic-game-visual table {
+  text-align: center;
+}
+
+.footer {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  z-index: 10;
+}
+
+#table-header th {
+  width: 20vw;
+  border: 1px black solid;
+}
+
+#player1 td {
+  width: 20vw;
+  border: 1px black solid;
+}
+
+#player2 td {
+  width: 20vw;
+  border: 1px black solid;
+}
+
+.card {
+  padding: 48px 24px;
+  margin: 5px;
+  background-color: white;
+  border: black solid 1px;
+}
+
+table {
+  border: black solid 2px;
+}
+
+#red {
+  background: red;
+}
+
+#blue {
+  background: blue;
+}
+
+#green {
+  background: green;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#black {
+  background: black;
+  margin-bottom: 70px;
+}

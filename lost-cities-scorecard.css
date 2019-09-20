@@ -17,8 +17,22 @@ body {
   padding-bottom: 1%;
 }
 
-.basic-game-visual table {
+.card {
+  width: 20vw;
+}
+
+.player-scorecard td {
   text-align: center;
+}
+
+.basic-game-visual {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.sixth-city-visual {
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .footer {
@@ -57,23 +71,26 @@ table {
   border: black solid 2px;
 }
 
-#red {
+.journey-cards-red {
   background: red;
 }
 
-#blue {
+.journey-cards-blue {
   background: blue;
 }
 
-#green {
+.journey-cards-green {
   background: green;
 }
 
-#yellow {
+.journey-cards-yellow {
   background: yellow;
 }
 
-#black {
+.journey-cards-black {
   background: black;
-  margin-bottom: 70px;
+}
+
+#bottom-journey-cards {
+  margin-bottom: 90px;
 }

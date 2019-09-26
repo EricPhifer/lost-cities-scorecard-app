@@ -4,12 +4,20 @@ body {
 }
 
 #break {
-  padding: 25px;
+  padding: 100px;
 }
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+/* Heading */
 
 .main-title {
   text-align: center;
-  font: 32px bold;
+  font: 1.5rem bold;
 }
 
 .main-sub-title {
@@ -17,70 +25,80 @@ body {
   padding-bottom: 1%;
 }
 
-.card {
-  width: 20vw;
-}
+/* Visual Cards */
 
-.player-scorecard td {
-  text-align: center;
-}
-
-.basic-game-visual {
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
+.basic-game-visual,
 .sixth-city-visual {
   padding-left: 2%;
   padding-right: 2%;
 }
 
-.footer {
-  background-color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  text-align: center;
-  z-index: 10;
-}
-
-#table-header th {
-  width: 20vw;
-  border: 1px black solid;
-}
-
-#player1 td {
-  width: 20vw;
-  border: 1px black solid;
-}
-
+#table-header th,
+#player1 td,
 #player2 td {
   width: 20vw;
-  border: 1px black solid;
-}
-
-.card {
-  padding: 48px 24px;
-  margin: 5px;
-  background-color: white;
   border: black solid 1px;
 }
 
-table {
-  border: black solid 2px;
+.card {
+  width: 20vw;
+  margin: 5px;
+  background-color: white;
+  text-align: center;
 }
+
+/* Classic Scorecard */
+
+.basic-game-classic {
+  margin: 1%;
+  width: 95vw;
+}
+
+.classic-table-header th {
+  font-size: 0.9rem;
+}
+
+.scorecard-section {
+  width: 15vw;
+  margin: 2%;
+  padding: 2%;
+  font-size: 1.2rem;
+  text-align: center;
+  border: black solid 1px;
+  background: rgba(131, 131, 131, 0.123);
+}
+
+.game-calculation-row {
+  background: #c0c0c0;
+}
+
+#check-box {
+  border: black solid 1px;
+  background: white;
+  height: 21px;
+}
+
+.black-sixth-city-classic {
+  margin-left: 1%;
+  margin-bottom: 10%;
+  width: 95vw;
+}
+
+/* Aligning background color to correspond to card colors */
 
 .journey-cards-red {
   background: red;
+  color: #ffffff;
 }
 
 .journey-cards-blue {
   background: blue;
+  color: #ffffff;
 }
 
 .journey-cards-green {
   background: green;
+  color: #ffffff;
 }
 
 .journey-cards-yellow {
@@ -88,9 +106,30 @@ table {
 }
 
 .journey-cards-black {
-  background: black;
+  background: gray;
+  color: #ffffff;
 }
 
+/* Leaving room for the fixed footer */
+
 #bottom-journey-cards {
-  margin-bottom: 90px;
+  margin-bottom: 17vh;
+}
+
+/* Footer */
+
+.footer {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 15vh;
+  text-align: center;
+  z-index: 10;
+}
+
+.player-scorecard td {
+  text-align: center;
+  height: 48px;
 }
